@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>io.asher.magpie</string>
+	<string>site.notion.asherperuscini.magpie</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -217,34 +217,13 @@
 	<key>createdby</key>
 	<string>Asher Peruscini</string>
 	<key>description</key>
-	<string>Open your current tab in any browser</string>
+	<string>Open your current tab in any other browser</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>Magpie</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ois</string>
-				<key>subtext</key>
-				<string>Open current URL in Safari</string>
-				<key>text</key>
-				<string>Open in Safari</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>53017310-6055-4FC6-8A11-C1127E2C296B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -268,6 +247,27 @@ osascript ./scripts/ois.scpt</string>
 			<string>FBDB1AAA-6AC4-43C4-B103-BC91BD00CA26</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ois</string>
+				<key>subtext</key>
+				<string>Open current URL in Safari</string>
+				<key>text</key>
+				<string>Open in Safari</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>53017310-6055-4FC6-8A11-C1127E2C296B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -501,6 +501,27 @@ osascript ./scripts/oia.scpt</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>oif</string>
+				<key>subtext</key>
+				<string>Open current URL in Firefox</string>
+				<key>text</key>
+				<string>Open in Firefox</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AD062D4E-810B-4C6E-AC81-95492AACE2DC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -525,27 +546,6 @@ osascript ./scripts/oif.scpt</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>oif</string>
-				<key>subtext</key>
-				<string>Open current URL in Firefox</string>
-				<key>text</key>
-				<string>Open in Firefox</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>AD062D4E-810B-4C6E-AC81-95492AACE2DC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>oif</string>
 				<key>passthroughargument</key>
@@ -557,6 +557,27 @@ osascript ./scripts/oif.scpt</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>30D3677D-EDD7-4037-BCB1-561F88BA0B9A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>oit</string>
+				<key>subtext</key>
+				<string>Open current URL in Tor</string>
+				<key>text</key>
+				<string>Open in Tor</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>36308E98-F622-479D-8C94-075D57BA35EC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -583,27 +604,6 @@ osascript ./scripts/oit.scpt</string>
 			<string>67B229ED-00A1-424F-82C6-9E6017235541</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>oit</string>
-				<key>subtext</key>
-				<string>Open current URL in Tor</string>
-				<key>text</key>
-				<string>Open in Tor</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>36308E98-F622-479D-8C94-075D57BA35EC</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
