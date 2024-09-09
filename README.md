@@ -8,8 +8,9 @@ An Alfred 5 "open current tab in any bowser" workflow
 - Firefox
 - Tor
 
-## Support coming soon
-#### share your vote [https://forms.gle/itMAx9E84RDYqkhm9](http://gg.gg/1c1lr1)
+
+### Support coming soon
+#### cast your vote [https://forms.gle/itMAx9E84RDYqkhm9](http://gg.gg/1c1lr1)
 - Brave
 - Edge
 - Opera
