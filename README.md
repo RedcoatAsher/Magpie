@@ -1,5 +1,5 @@
 # Magpie
-An Alfred 5 "open current tab in any bowser" workflow
+An Alfred 5 "open current tab in any browser" workflow
 
 ## Supported Browsers
 - Safari
