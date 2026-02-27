@@ -10,7 +10,7 @@ An Alfred 5 "open current tab in any browser" workflow
 
 
 ### Support coming soon
-#### cast your vote [https://forms.gle/itMAx9E84RDYqkhm9](http://gg.gg/1c1lr1)
+#### cast your vote [https://forms.gle/itMAx9E84RDYqkhm9]([https://forms.gle/itMAx9E84RDYqkhm9)
 - Brave
 - Edge
 - Opera
